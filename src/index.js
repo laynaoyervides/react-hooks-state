@@ -1,5 +1,5 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import Counter from "./components/Counter";
-
-ReactDOM.render(<Counter />, document.getElementById("root"));
+import Toggle from "./components/Toggle";
+ReactDOM.render(<Counter />,<Toggle/>, document.getElementById("root"));
